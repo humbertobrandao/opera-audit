@@ -1,0 +1,14 @@
+# MLC/CPLEX image: built ON TOP of the already validated cplex image of
+# opera-audit (pinned base + CPLEX installed from the user's .bin).
+# The OOF register is NEVER built here (always in the highs image, with the
+# exact versions of record); this image only SOLVES (numpy/scipy compatible
+# with python 3.10; exact integer results do not depend on floating-point
+# library versions).
+# Build:  docker build -f docker/Dockerfile.mlc-cplex \
+#           --build-arg BASE=<tag of the opera-audit cplex image> \
+#           -t opera-mlc-cplex .
+ARG BASE
+FROM ${BASE}
+COPY docker/requirements-mlc-cplex.txt /tmp/req.txt
+RUN pip install --no-cache-dir -r /tmp/req.txt
+WORKDIR /work

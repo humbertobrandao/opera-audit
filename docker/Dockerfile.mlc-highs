@@ -1,0 +1,10 @@
+# MLC/HiGHS image: built ON TOP of the already validated highs image of
+# opera-audit (same pinned base), adding the learning stack.
+# Build:  docker build -f docker/Dockerfile.mlc-highs \
+#           --build-arg BASE=<tag of the opera-audit highs image> \
+#           -t opera-mlc-highs .
+ARG BASE
+FROM ${BASE}
+COPY docker/requirements-mlc-highs.txt /tmp/req.txt
+RUN pip install --no-cache-dir -r /tmp/req.txt
+WORKDIR /work

@@ -1,0 +1,25 @@
+{
+ "development_seed": 20260811,
+ "r4_permutation_seed": 20260812,
+ "qa_battery_seed": 20260815,
+ "confirmatory_master_entropy": 20260816,
+ "confirmatory_seeds": [
+  1563301818,
+  2094457352,
+  910208993,
+  2142572456,
+  2355023162,
+  3221619752,
+  2650268534,
+  273224788,
+  4288307182,
+  3586821876,
+  1964561145,
+  2889434148,
+  3699609031,
+  3058505923,
+  1661477577
+ ],
+ "rng_derivation": "np.random.SeedSequence([seed, label_index, config_index]) for each (label, configuration); per-label folds via SeedSequence([seed, label_index, 'folds'->0xF01D5])",
+ "n_seeds": 15
+}

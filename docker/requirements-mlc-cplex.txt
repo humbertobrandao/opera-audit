@@ -1,0 +1,6 @@
+# Solver side only (python 3.10 of the cplex image; numpy 2.4 requires 3.11,
+# hence the 3.10-compatible versions; result exactness is integer and does
+# not depend on these versions). scikit-learn is NOT used here.
+numpy==2.2.6
+scipy==1.15.3
+joblib==1.5.3

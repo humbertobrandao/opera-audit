@@ -1,0 +1,18 @@
+# Cross-check environment (CPLEX track). Python 3.10.19.
+# CPLEX Studio 22.1.1 ships Python bindings up to Python 3.10, hence the
+# separate, older interpreter. This image only re-solves the frozen
+# registers (results/registers_seed20260811.npz); it never retrains
+# classifiers, so scikit-learn/pandas are not needed here.
+# The 'cplex' package itself is installed from the user's local CPLEX
+# Studio installation inside the Docker build -- NEVER from PyPI (the PyPI
+# package is the Community Edition, capped at 1000 constraints; these
+# instances have 1366).
+docplex==2.32.264
+iniconfig==2.3.0
+numpy==2.2.6
+packaging==26.3
+pluggy==1.6.0
+Pygments==2.21.0
+pytest==9.1.1
+scipy==1.15.3
+six==1.17.0

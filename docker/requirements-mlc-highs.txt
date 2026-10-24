@@ -1,0 +1,9 @@
+# Pinned to the environment that produced the development register
+# (python 3.11.15)
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.8.0
+joblib==1.5.3
+# Data acquisition/parsing only (get_medical.py, datasets_gen.py); no effect on any solve.
+requests==2.33.1
+liac-arff==2.5.0

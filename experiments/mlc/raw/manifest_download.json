@@ -1,0 +1,27 @@
+{
+ "emotions/emotions.arff": "6f2f790047073d1293ac0872c0d55f2dc98b6177802fc96c6b66b309dfee1e4b",
+ "emotions/emotions.xml": "dbce8e6ccbbb2fcbfd9e9edbb230d7ed12692c6e13f59fdbc0161fa9b6cf2dc0",
+ "scene/scene.arff": "5905548975b69b639ab31a295f7bf1ab7379a3f016450012722d28f660f4b143",
+ "scene/scene.xml": "55d8b247b949ad5c52e5a73d8c6775ec6e5469ce9682465b45b333b68ee4bcc5",
+ "yeast/yeast.arff": "55c07a3b6ff885ae338fb6987a1d57f55572b29809922c2822c4885c61230dd7",
+ "yeast/yeast.xml": "c3056cc26444b5158b1588d1b73bec9c45429e10f0957ad085903423cb81f247",
+ "enron/enron.arff": "d0889ef0576d4e7b5ec0df3b3e4760e476ac11a6e7d7ddeee4c4a34470dedf97",
+ "enron/enron.xml": "ed40c92d7f613eed51714912cab10dddc4ce456262137d8fef230d44c7f4457b",
+ "bibtex/bibtex.arff": "a282a6d1fb3cdaf39bde3f81cd4e6079850a7a538a6bc44f8b4ed95dfe1e5014",
+ "bibtex/bibtex.xml": "08fe20013c1e75dcf1888c185f5187c95e76495b8518ce289b4d3afce38d1232",
+ "cal500/cal500.arff": "cfe6097ba5fd6e8584e54911ab9783dcab34e898446b7c9370c71d477eae56d3",
+ "cal500/cal500.xml": "877e128531268d7661faa3e44f7bb43cbcda829c0895e49879168775b192728c",
+ "birds/birds-train.arff": "8f215db6ee163149901e753977f631ba8bea0e0e8e1abc42b234414822f8ae36",
+ "birds/birds-test.arff": "51ba6326d65ccdd7c755b6461280eb6d2769c7f59d8e12fd4250f91e6ca28326",
+ "birds/birds.xml": "0f4ea547b2b3d538c8402662daf689e0d4520cc8b4f5ba113c2e7c01700f010f",
+ "delicious/delicious.arff": "b944de0bca910050c11d97eed57d17b073110ea3646a587f3d15d127cf581aab",
+ "delicious/delicious.xml": "4e0c0f93c7d86a39b9fca4aaefaa00e9428f2c80277732dfbf03ca48e2c14da2",
+ "mediamill/mediamill.arff": "ad7e629d599ac1c80dfabe32fb9f18be28accd8e902515a461497bc48760a72b",
+ "mediamill/mediamill.xml": "960991532485541a885868c269bf454a6ecdcea3f821ad29ae516eaa5a1bd43b",
+ "eukaryotego/eukaryote-go.arff": "050c08bd262cf8f5675234b92608dec5fa38213e316975af2531ddb6be99d15c",
+ "eukaryotego/eukaryote-go.xml": "f3e0c127dac5b023fec3a658711f219159bf2b64e4c1ba8c48d51c061601be1c",
+ "_fontes": {
+  "mulan": "https://raw.githubusercontent.com/tsoumakas/mulan/master/data/multi-label/ (8 bases)",
+  "boomer": "https://github.com/mrapp-ke/Boomer-Datasets (mediamill, eukaryote-go; via Git-LFS media, oid sha256 do ponteiro CONFERIDO no download)"
+ }
+}

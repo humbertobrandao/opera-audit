@@ -1,0 +1,34 @@
+{
+  "hostname": "e610cacab005",
+  "register": "registers_seed20260811.npz (congelado)",
+  "backend": "highs",
+  "audits": [
+    {
+      "pool": 3,
+      "label": "pool inicial (m=5, leitura 0,5)",
+      "U_star": -81032.0,
+      "published": -81032,
+      "match": true,
+      "solver_seconds": 0.03890646481886506,
+      "wall_seconds": 0.26431144727393985
+    },
+    {
+      "pool": 6,
+      "label": "pool ampliado (m=25, leitura 0,5)",
+      "U_star": -28771.0,
+      "published": -28771,
+      "match": true,
+      "solver_seconds": 0.044802132062613964,
+      "wall_seconds": 0.0450094030238688
+    },
+    {
+      "pool": 4,
+      "label": "pool reconstruido (m=5, leitura por custos)",
+      "U_star": 21477.0,
+      "published": 21477,
+      "match": true,
+      "solver_seconds": 0.057943305000662804,
+      "wall_seconds": 0.05815707193687558
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+ "delicious": {
+  "cells": 5898,
+  "go_pre": 2868,
+  "nogo_pre": 482,
+  "open": 2548,
+  "open_pli_go": 255,
+  "open_pli_nogo": 2293,
+  "open_pli_tl": 503,
+  "disagree": 0,
+  "seeds": [
+   "1563301818"
+  ],
+  "ratio_median_wavg": 0.9388529961113322,
+  "frac_at_optimum_wavg": 0.14506024096385542,
+  "t_precert_ms_median": 15.29647153802216
+ },
+ "emotions": {
+  "cells": 540,
+  "go_pre": 480,
+  "nogo_pre": 0,
+  "open": 60,
+  "open_pli_go": 3,
+  "open_pli_nogo": 57,
+  "open_pli_tl": 2,
+  "disagree": 0,
+  "seeds": [
+   "1563301818",
+   "1661477577",
+   "1964561145",
+   "2094457352",
+   "2142572456",
+   "2355023162",
+   "2650268534",
+   "273224788",
+   "2889434148",
+   "3058505923",
+   "3221619752",
+   "3586821876",
+   "3699609031",
+   "4288307182",
+   "910208993"
+  ],
+  "ratio_median_wavg": 0.9145137605458118,
+  "frac_at_optimum_wavg": 0.0,
+  "t_precert_ms_median": 0.5305695813149214
+ },
+ "enron": {
+  "cells": 258,
+  "go_pre": 141,
+  "nogo_pre": 35,
+  "open": 82,
+  "open_pli_go": 11,
+  "open_pli_nogo": 71,
+  "open_pli_tl": 2,
+  "disagree": 0,
+  "seeds": [
+   "1563301818"
+  ],
+  "ratio_median_wavg": 0.8447098976109215,
+  "frac_at_optimum_wavg": 0.07692307692307693,
+  "t_precert_ms_median": 2.257803687825799
+ },
+ "eukaryotego": {
+  "cells": 132,
+  "go_pre": 129,
+  "nogo_pre": 2,
+  "open": 1,
+  "open_pli_go": 0,
+  "open_pli_nogo": 1,
+  "open_pli_tl": 0,
+  "disagree": 0,
+  "seeds": [
+   "1563301818"
+  ],
+  "ratio_median_wavg": 0.9966124073633982,
+  "frac_at_optimum_wavg": 0.1935483870967742,
+  "t_precert_ms_median": 7.164057111367583
+ },
+ "mediamill": {
+  "cells": 606,
+  "go_pre": 504,
+  "nogo_pre": 14,
+  "open": 88,
+  "open_pli_go": 8,
+  "open_pli_nogo": 80,
+  "open_pli_tl": 6,
+  "disagree": 0,
+  "seeds": [
+   "1563301818"
+  ],
+  "ratio_median_wavg": 0.9818070747032813,
+  "frac_at_optimum_wavg": 0.0694980694980695,
+  "t_precert_ms_median": 39.61707861162722
+ },
+ "medical": {
+  "cells": 1890,
+  "go_pre": 1832,
+  "nogo_pre": 35,
+  "open": 23,
+  "open_pli_go": 0,
+  "open_pli_nogo": 23,
+  "open_pli_tl": 0,
+  "disagree": 0,
+  "seeds": [
+   "1563301818",
+   "1661477577",
+   "1964561145",
+   "2094457352",
+   "2142572456",
+   "2355023162",
+   "2650268534",
+   "273224788",
+   "2889434148",
+   "3058505923",
+   "3221619752",
+   "3586821876",
+   "3699609031",
+   "4288307182",
+   "910208993"
+  ],
+  "ratio_median_wavg": 0.9971953834224865,
+  "frac_at_optimum_wavg": 0.43231441048034935,
+  "t_precert_ms_median": 1.1416703928261995
+ },
+ "scene": {
+  "cells": 108,
+  "go_pre": 108,
+  "nogo_pre": 0,
+  "open": 0,
+  "open_pli_go": 0,
+  "open_pli_nogo": 0,
+  "open_pli_tl": 0,
+  "disagree": 0,
+  "seeds": [
+   "1563301818",
+   "2094457352",
+   "910208993"
+  ],
+  "ratio_median_wavg": 0.9775346503588618,
+  "frac_at_optimum_wavg": 0.0,
+  "t_precert_ms_median": 1.3350474182516336
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "emotions": {
+  "n": 593,
+  "p": 72,
+  "L_nominal": 6,
+  "nan_features": 0,
+  "arquivos": [
+   "emotions.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "2ec71c031a6ffc84a7c7226535e44d358518759efc62262ba6edda8292bdf5b4"
+ },
+ "scene": {
+  "n": 2407,
+  "p": 294,
+  "L_nominal": 6,
+  "nan_features": 0,
+  "arquivos": [
+   "scene.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "ce78574cc55c2448cfea61e19bb6dca040dc39b5ba6a5a8b241e741e94a27273"
+ },
+ "yeast": {
+  "n": 2417,
+  "p": 103,
+  "L_nominal": 14,
+  "nan_features": 0,
+  "arquivos": [
+   "yeast.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "28c453424a3670a89cc41067d4bf4de0bab77f8a7a9855c24d846c84f189ef1a"
+ },
+ "enron": {
+  "n": 1702,
+  "p": 1001,
+  "L_nominal": 53,
+  "nan_features": 0,
+  "arquivos": [
+   "enron.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "6cd7d8d5f507e49447b20a911825d28a301b05a545f282ab62147c5a34012d29"
+ },
+ "bibtex": {
+  "n": 7395,
+  "p": 1836,
+  "L_nominal": 159,
+  "nan_features": 0,
+  "arquivos": [
+   "bibtex.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "c0beebb11fa6800f4fae399361fecaf779f2e61257b6b7cc1ee0993647c4f26b"
+ },
+ "cal500": {
+  "n": 502,
+  "p": 68,
+  "L_nominal": 174,
+  "nan_features": 0,
+  "arquivos": [
+   "cal500.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "476c0a5e890ebf27b8a87028e41e2bd67d05a926f425489ee05e3cb51b0f39d3"
+ },
+ "birds": {
+  "n": 645,
+  "p": 260,
+  "L_nominal": 19,
+  "nan_features": 0,
+  "arquivos": [
+   "birds-test.arff",
+   "birds-train.arff"
+  ],
+  "estrato": "conf",
+  "sha256_npz": "d3b50555391e730c9e12249e231acd25d7337451e5f4b386589d2ea8af665a62"
+ },
+ "delicious": {
+  "n": 16105,
+  "p": 500,
+  "L_nominal": 983,
+  "nan_features": 0,
+  "arquivos": [
+   "delicious.arff"
+  ],
+  "estrato": "escala",
+  "sha256_npz": "b07e08fad7c1bc522e9cbcc91e5a6fcfaa9587c4e86dcef2436cae2cd101079d"
+ },
+ "mediamill": {
+  "n": 43907,
+  "p": 120,
+  "L_nominal": 101,
+  "nan_features": 0,
+  "arquivos": [
+   "mediamill.arff"
+  ],
+  "estrato": "escala",
+  "sha256_npz": "5ff27fda154449533f4b5af8889260f4e13b1f013edc67a4431f2167fda060bd"
+ },
+ "eukaryotego": {
+  "n": 7766,
+  "p": 12689,
+  "L_nominal": 22,
+  "nan_features": 0,
+  "arquivos": [
+   "eukaryote-go.arff"
+  ],
+  "estrato": "escala",
+  "sha256_npz": "3db0afed8b8424ee9b61771a87c225e8073df7bb3b8683436bba73ca13c557ef"
+ }
+}
